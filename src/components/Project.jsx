@@ -6,18 +6,20 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 export default function Project() {
-  return (
-    <>
-      <Navigation />
-      <main>
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/about" replace />} />
-        </Routes>
-      </main>
-    </>
-  );
+    return (
+        <>
+            <Navigation />
+            <main>
+                <Routes>
+                    <Route path='/' element={<About />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/portfolio" element={<Portfolio />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/resume" element={<Resume />} />
+                    <Route path="*" element={<Navigate to="/about" replace />} />
+
+                </Routes>
+            </main>
+        </>
+    );
 }
