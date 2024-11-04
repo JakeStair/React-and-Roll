@@ -11,16 +11,16 @@ export default function Navigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Nav.Link as={Link} to="/about" active={location.pathname === '/about'}>
+                    <Nav.Link as={Link} to="/about" active={location.pathname === '/about'} className="text-change">
                         About Me
                     </Nav.Link>
-                    <Nav.Link as={Link} to="/portfolio" active={location.pathname === '/portfolio'}>
+                    <Nav.Link as={Link} to="/portfolio" active={location.pathname === '/portfolio'} className="text-change">
                         Portfolio
                     </Nav.Link>
-                    <Nav.Link as={Link} to="/contact" active={location.pathname === '/contact'}>
+                    <Nav.Link as={Link} to="/contact" active={location.pathname === '/contact'} className="text-change">
                         Contact
                     </Nav.Link>
-                    <Nav.Link as={Link} to="/resume" active={location.pathname === '/resume'}>
+                    <Nav.Link as={Link} to="/resume" active={location.pathname === '/resume'} className="text-change">
                         Resume
                     </Nav.Link>
                 </Nav>

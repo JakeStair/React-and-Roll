@@ -12,7 +12,7 @@
 }
 
 .footer div a:hover {
-    color: #abf0ff; /* Change hover color */
+    color: #ebfbff; /* Change hover color */
     transform: scale(1.01); /* Add scale effect */
 }
 

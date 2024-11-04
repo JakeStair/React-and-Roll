@@ -9,7 +9,6 @@ a {
 }
 
 a:hover {
-    color: orange;
     transform: scale(1.01);
     text-shadow: 0 0 5px #abf0ff, 0 0 10px #abf0ff;
 }
@@ -25,4 +24,32 @@ li {
     display: inline-block;
     margin: 0 15px;
     padding: 10px;
+}
+
+.text-change {
+    color: white !important;
+}
+
+/* Ensure no background color for Nav.Link */
+.navbar .nav .nav-link {
+    background-color: transparent !important; /* Ensure no background color */
+    color: white !important; /* Ensure text color is white */
+}
+
+.navbar .nav .nav-link:hover {
+    background-color: transparent !important; /* Ensure no background on hover */
+    color: orange !important; /* Change color on hover */
+}
+
+/* Active link styles */
+.navbar .nav .nav-link.active {
+    background-color: transparent !important; /* No background for active link */
+}
+
+/* Remove focus outline */
+.navbar .nav .nav-link:focus {
+    outline: none; /* Remove focus outline */
+}
+.navbar .nav-link {
+    background: none !important; /* Clear any background */
 }
