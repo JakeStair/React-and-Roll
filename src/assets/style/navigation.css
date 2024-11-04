@@ -1,0 +1,29 @@
+* {
+    background-color: #303030;
+    color: white;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: orange;
+    transform: scale(1.01);
+    text-shadow: 0 0 5px orange, 0 0 10px orange;
+}
+
+ul li {
+    list-style-type: none;
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px;
+}
