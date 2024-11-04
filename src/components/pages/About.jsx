@@ -1,8 +1,12 @@
 export default function About() {
   return (
-    <div>
-      <h1>About</h1>
-      <p>With 10 years experience in filmmaking and graphic design, I have begun a journey into bringing it together to be able to ont rely on others to bring my designs and films to display.</p>
-    </div>
+      <div className="container py-5">
+          <h1 className="text-center mb-4">About Me</h1>
+          <p className="lead">
+              Hello! I’m a web developer with experience in building single-page applications using React.
+              I have a passion for clean code and responsive design.
+          </p>
+          {/* <img src="path-to-your-photo.jpg" alt="Developer" className="img-fluid rounded-circle mx-auto d-block" /> */}
+      </div>
   );
 }

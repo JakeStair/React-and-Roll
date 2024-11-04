@@ -1,4 +1,6 @@
 import Project from './components/Project';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => <Project />;
 
