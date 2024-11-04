@@ -18,7 +18,7 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Fire & White Podcast</h5>
                             <p className="card-text">Igniting stories about legends of women's basketball.</p>
-                            <a href="link-to-project1" className="btn btn-primary">View Project</a>
+                            <a href="link-to-project1" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">Project Title 2</h5>
                             <p className="card-text">Brief description of project 2 showcasing your skills and the essence of the project.</p>
-                            <a href="link-to-project2" className="btn btn-primary">View Project</a>
+                            <a href="link-to-project2" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,7 @@ export default function Portfolio() {
                         <div className="card-body">
                             <h5 className="card-title">AO Scan Mini-Doc</h5>
                             <p className="card-text">Brief description of project 3 showcasing your skills and the essence of the project.</p>
-                            <a href="link-to-project3" className="btn btn-primary">View Project</a>
+                            <a href="link-to-project3" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
                 </div>
