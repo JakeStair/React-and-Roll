@@ -1,36 +1,31 @@
+import { Link } from 'react-router-dom';
+
 export default function Navigation({ currentPage, handlePageChange }) {
     return (
         <ul>
             <li>
-                <a href="#about"
-                onClick={() => handlePageChange('About')}
-                className={currentPage === 'About'}>
+                <Link to="/about" onClick={() => handlePageChange('About')}
+                className={currentPage === 'About' ? 'nav-active' : ''}>
                     About me
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="#portfolio"
-                onClick={() => handlePageChange('Portfolio')}
-                    className={currentPage === 'Portfolio'}
-                    >
+                <Link to="/portfolio" onClick={() => handlePageChange('Portfolio')}
+                className={currentPage === 'Portfolio' ? 'nav-active' : ''}>
                     Portfolio
-                </a>
+                </Link>
             </li>
             <li>
-                <a href='#contact'
-                onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact'}
-                >
+                <Link to="/contact" onClick={() => handlePageChange('Contact')}
+                className={currentPage === 'Contact' ? 'nav-active' : ''}>
                     Contact
-                </a>
+                </Link>
             </li>
             <li>
-                <a href='#resume'
-                onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume'}
-                >
+                <Link to="/resume" onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'nav-active' : ''}>
                     Resume
-                </a>
+                </Link>
             </li>
         </ul>
     );
