@@ -1,4 +1,7 @@
 import '../../assets/style/portfolio.css';
+import image2 from '../../assets/images/2b.jpg';
+import image3 from '../../assets/images/3.jpg';
+import chansey from '../../assets/images/chansey.jpg';
 
 export default function Portfolio() {
     return (
@@ -10,35 +13,34 @@ export default function Portfolio() {
                 My aim is to inspire and connect through engaging visuals that capture the essence of every project. Explore my creations, and witness how I bring ideas to life through a blend of creativity and technical skill.
             </p>
 
-            {/* Portfolio Items Section */}
             <div className="row mt-5">
                 <div className="col-md-4">
                     <div className="card mb-4">
-                        <img src="path/to/image1.jpg" className="card-img-top" alt="Portfolio Item 1" />
+                        <img src={image2} className="card-img-top" alt="Portfolio Item 1" />
                         <div className="card-body">
                             <h5 className="card-title">Fire & White Podcast</h5>
                             <p className="card-text">Igniting stories about legends of women's basketball.</p>
-                            <a href="link-to-project1" className="btn btn-secondary">View Project</a>
+                            <a href="https://github.com/JakeStair/fire-white-podcast" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="card mb-4">
-                        <img src="path/to/image2.jpg" className="card-img-top" alt="Portfolio Item 2" />
+                        <img src={chansey} className="card-img-top" alt="Portfolio Item 2" />
                         <div className="card-body">
-                            <h5 className="card-title">Project Title 2</h5>
-                            <p className="card-text">Brief description of project 2 showcasing your skills and the essence of the project.</p>
-                            <a href="link-to-project2" className="btn btn-secondary">View Project</a>
+                            <h5 className="card-title">Cartoon Hero</h5>
+                            <p className="card-text">Web application displaying Chansey, the most popular Pokemon.</p>
+                            <a href="https://github.com/JakeStair/cartoon-hero" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div className="card mb-4">
-                        <img src="path/to/image3.jpg" className="card-img-top" alt="Portfolio Item 3" />
+                        <img src={image3} className="card-img-top" alt="Portfolio Item 3" />
                         <div className="card-body">
-                            <h5 className="card-title">AO Scan Mini-Doc</h5>
-                            <p className="card-text">Brief description of project 3 showcasing your skills and the essence of the project.</p>
-                            <a href="link-to-project3" className="btn btn-secondary">View Project</a>
+                            <h5 className="card-title">Holiday Countdown</h5>
+                            <p className="card-text">Single page web application that displays a countdown to your chosen holiday.</p>
+                            <a href="https://github.com/JakeStair/HolidayCountdown" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
                 </div>

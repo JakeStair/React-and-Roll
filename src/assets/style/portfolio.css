@@ -2,3 +2,47 @@
     background-color: rgb(156, 156, 156) !important;
     color: white !important;
 }
+
+.portfolio-card {
+    position: relative; /* Enable positioning for the overlay */
+    overflow: hidden; /* Hide overflow for a cleaner look */
+}
+
+.portfolio-card img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hide overlay by default */
+    transition: opacity 0.3s ease; /* Smooth transition */
+}
+
+.portfolio-card:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.social-links {
+    margin-top: 10px; /* Space between title and social links */
+}
+
+.social-links a {
+    color: white; /* Social link color */
+    margin: 0 5px; /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

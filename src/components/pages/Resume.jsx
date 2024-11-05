@@ -11,7 +11,7 @@ export default function Resume() {
                 <a 
                     href="/assets/documents/resume.pdf" // Update here
                     download 
-                    className="btn btn-primary"
+                    className="btn btn-secondary"
                 >
                     Download My Resume
                 </a>
