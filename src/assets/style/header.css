@@ -1,14 +1,69 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: 1rem;
-    color: white;
-    background-color: #303030;
-}
+
 
 .header-title {
     font-size: 1.5rem;
     margin-top: 10px;
     padding: 0 30px 0 0;
+}
+
+a {
+    display: flex;
+}
+
+a:hover {
+    transform: scale(1.01);
+    text-shadow: 0 0 5px #abf0ff, 0 0 10px #abf0ff;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px;
+}
+
+.text-change {
+    color: white !important;
+}
+
+/* Ensure no background color for Nav.Link */
+.navbar .nav .nav-link {
+    background-color: transparent !important; /* Ensure no background color */
+    color: white !important; /* Ensure text color is white */
+}
+
+.navbar .nav .nav-link:hover {
+    background-color: transparent !important; /* Ensure no background on hover */
+    color: orange !important; /* Change color on hover */
+}
+
+/* Active link styles */
+.navbar .nav .nav-link.active {
+    background-color: transparent !important; /* No background for active link */
+}
+
+/* Remove focus outline */
+.navbar .nav .nav-link:focus {
+    outline: none; /* Remove focus outline */
+}
+.navbar .nav-link {
+    background: none !important; /* Clear any background */
+}
+
+img:hover{
+    transform: scale(1.09);
+    text-shadow: 0 0 5px #ffeaab, 0 0 10px #fff2ab;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 0 30px 0 0;
+    font-weight: lighter;
 }
