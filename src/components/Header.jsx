@@ -3,7 +3,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import logoImage from '../assets/images/logo.svg';
-import '../assets/style/Header.css';
+import '../assets/style/header.css';
 
 export default function Header() {
     const location = useLocation();
