@@ -4,8 +4,8 @@ import profile from '../../assets/images/profile.jpg';
 
 export default function About() {
   return (
-      <div className="about-container d-flex py-5"> {/* Use the flex class */}
-          <div className="about-text flex-grow-1"> {/* Wrap text in a div */}
+      <div className="about-container d-flex py-5"> 
+          <div className="about-text flex-grow-1"> 
               <h1 className="text-center mb-4">Jake's Bio</h1>
               <p className="lead">
                   As a passionate videographer and designer with over ten years of experience, I thrive on the creative process. My journey has led me through various disciplines, including photography, graphic design, filmmaking, and branding, allowing me to cultivate a diverse skill set. <br />
@@ -15,7 +15,7 @@ export default function About() {
           </div>
           <img 
               src={profile} 
-              alt="jake's photo" 
+              alt="profile photo" 
               className="about-image" 
               style={{ width: '300px', height: 'auto' }} 
           />
