@@ -1,6 +1,24 @@
 body {
-    background-color: #343a40; /* Dark gray background */
-    color: white; /* White text color */
+    background-color: #343a40 !important; /* Dark gray background */
+    color: #ffffff !important;
 }
 
+/* h1, h2, h3, h4 {
+    color: white !important;
+} */
 
+
+html, body {
+    height: 100%; /* Make sure the body takes full height */
+    margin: 0; /* Remove default margin */
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make the container full height of the viewport */
+}
+
+main {
+    flex: 1; /* This allows the main content to grow and take the remaining space */
+}

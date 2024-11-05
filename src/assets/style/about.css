@@ -1,0 +1,35 @@
+.about-container {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out items */
+    margin: 20px; /* Adjust margin as needed */
+}
+
+.about-text {
+    flex: 1; /* Allows text to take available space */
+    margin-right: 20px; /* Space between text and image */
+}
+
+.about-image {
+    max-width: 300px; /* Set a max width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column; /* Stack items on smaller screens */
+        align-items: center; /* Center items */
+    }
+
+    .about-text {
+        margin-right: 0; /* Remove right margin */
+        text-align: center; /* Center text */
+        margin-bottom: 20px; /* Add space below text */
+    }
+
+    .about-image {
+        margin-top: 20px; /* Add space above image */
+    }
+}

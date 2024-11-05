@@ -5,11 +5,11 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Header from './Header';
 import Footer from './Footer';
-import '../assets/style/style.css'; // Import custom CSS
+import '../assets/style/style.css';
 
 export default function Project() {
     return (
-        <>
+        <div className="app-container">
             <Header />
             <main className="container mt-5">
                 <Routes>
@@ -22,6 +22,7 @@ export default function Project() {
                 </Routes>
             </main>
             <Footer />
-        </>
+        </div>
     );
 }
+

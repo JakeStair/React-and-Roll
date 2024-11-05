@@ -16,7 +16,7 @@ export default function Header() {
                         <img
                             src={logoImage}
                             alt="Profile"
-                            style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
+                            style={{ width: '50px', height: '50px', borderRadius: '50%', marginRight: '10px' }}
                         />
                     </Link>
                     <h5>Jake Watson</h5>

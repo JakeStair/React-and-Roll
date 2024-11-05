@@ -3,17 +3,18 @@
     background-color: #1c1c1c;
     color: white;
     padding: 20px;
-    text-align: center; /* Adjust as needed */
+    text-align: center;
+    margin-bottom: 0 !important;
 }
 
 .footer div a {
-    color: white; /* Change link color */
-    text-decoration: none; /* Remove underline */
+    color: white; 
+    text-decoration: none; 
 }
 
 .footer div a:hover {
-    color: #ebfbff; /* Change hover color */
-    transform: scale(1.01); /* Add scale effect */
+    color: #ebfbff; 
+    transform: scale(1.01); 
 }
 
 a {
@@ -22,6 +23,6 @@ a {
     justify-content: center;
     color: white;
     text-decoration: none;
-    transition: transform 0.2s ease, color 0.2s ease; /* Smooth transition */
+    transition: transform 0.2s ease, color 0.2s ease; 
 }
 

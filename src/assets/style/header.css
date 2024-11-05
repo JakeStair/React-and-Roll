@@ -12,7 +12,7 @@ a {
 
 a:hover {
     transform: scale(1.01);
-    text-shadow: 0 0 5px #abf0ff, 0 0 10px #abf0ff;
+    text-shadow: 0 0 5px #ffffc9, 0 0 10px #ffffc9;
 }
 
 ul li {
@@ -56,10 +56,16 @@ li {
     background: none !important; /* Clear any background */
 }
 
-img:hover{
-    transform: scale(1.09);
-    text-shadow: 0 0 5px #ffeaab, 0 0 10px #fff2ab;
+img {
+    padding: o;
+    width: 100px;
+    height: auto;
 }
+
+/* img:hover{
+    transform: scale(1.09);
+    text-shadow: 0 0 5px #ffffc9, 0 0 10px #ffffc9;
+} */
 
 h5 {
     font-size: 1.5rem;
