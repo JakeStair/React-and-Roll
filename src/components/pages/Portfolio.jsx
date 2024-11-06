@@ -1,7 +1,7 @@
 import '../../assets/style/portfolio.css';
 import image2 from '../../assets/images/2b.jpg';
 import image3 from '../../assets/images/3.jpg';
-import chansey from '../../assets/images/chansey.jpg';
+import wnba from '../../assets/images/wnba.jpg';
 
 export default function Portfolio() {
     return (
@@ -26,10 +26,10 @@ export default function Portfolio() {
                 </div>
                 <div className="col-md-4">
                     <div className="card mb-4">
-                        <img src={chansey} className="card-img-top" alt="Portfolio Item 2" />
+                        <img src={wnba} className="card-img-top" alt="Portfolio Item 2" />
                         <div className="card-body">
-                            <h5 className="card-title">Cartoon Hero</h5>
-                            <p className="card-text">Web application displaying Chansey, the most popular Pokemon.</p>
+                            <h5 className="card-title">WNBA Trivia</h5>
+                            <p className="card-text">Web application testing you on how much you know about basketball!</p>
                             <a href="https://github.com/JakeStair/cartoon-hero" className="btn btn-secondary">View Project</a>
                         </div>
                     </div>
